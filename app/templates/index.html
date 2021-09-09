@@ -18,7 +18,15 @@
         {% endblock %}
 
         <!--Content block-->
-        {% block content %} 
+        {% block content %}
+        <!--Search form-->
+        <div class="container">
+            <form>
+                <input type="text" name="movie_query" placeholder="Enter movie name to search..." class="form-control">
+                <input type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div> 
+        
         <!-- Popular movie section-->
         <div class="container">
             <div class="row">
